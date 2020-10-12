@@ -48,7 +48,7 @@ public class CcTask
         date = getLeftTime(date) ;
         Date d = new Date();
         System.out.println(date);
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI09qBnhkPyqU4", "VnNFZDdTmjjFTvK2PoS0lu0zggmkyp");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "testLTAI09qBnhkPyqU4", "testVnNFZDdTmjjFTvK2PoS0lu0zggmkyp");
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
